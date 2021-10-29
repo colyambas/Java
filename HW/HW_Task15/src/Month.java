@@ -44,5 +44,15 @@ public class Month {
         return NumberOfJobdays;
     }
 
+    public void setMonthName(String monthName) {
+        this.monthName = monthName;
+    }
 
+    public void setNumberOfDays(int numberOfDays) {
+        this.numberOfDays = numberOfDays;
+    }
+
+    public void setNumberOfJobdays(int numberOfJobdays) {
+        NumberOfJobdays = numberOfJobdays;
+    }
 }
