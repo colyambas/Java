@@ -10,16 +10,16 @@ public class Main {
         Worker worker8 = new Worker("Andy", 130);
         Worker worker9 = new Worker("George", 170);
         Worker worker10 = new Worker("Dave", 160);
-        Manager manager1 = new Manager("Abish John", 200, 3);
-        Manager manager2 = new Manager("Abish William", 200, 5);
-        Manager manager3 = new Manager("Abish Bishop", 200, 2);
+        BaseManager manager1 = new BaseManager("Abish John", 200, 3);
+        BaseManager manager2 = new BaseManager("Abish William", 200, 5);
+        BaseManager manager3 = new BaseManager("Abish Bishop", 200, 2);
         Director director = new Director("Abish Abraham Esquire", 300, 13);
 
         Worker[] workersArr = {
                 worker1, worker2, worker3, worker4, worker5, worker6, worker7, worker8, worker9, worker10
         };
 
-        Manager[] managersArr = {
+        BaseManager[] managersArr = {
                 manager1, manager2, manager3, director
         };
 

@@ -36,7 +36,7 @@ public class WorkersUtils {
         System.out.println("Зарплата всех сотрудников = " + sum);
     }
 
-    public static void getSalaryBudget(Manager[] managers) {
+    public static void getSalaryBudget(BaseManager[] managers) {
         double sum = 0.0;
         for (int i = 0; i < managers.length; i++) {
             sum += managers[i].getSalary();
@@ -65,7 +65,7 @@ public class WorkersUtils {
         System.out.println(worker.getName() + " salary: " + worker.getSalary());
     }
 
-    public static void getMinNumberOfSubordinates(Manager[] managers) {
+    public static void getMinNumberOfSubordinates(BaseManager[] managers) {
         int result = managers[0].numberOfSubordinates;
         for (int i = 1; i < managers.length; i++) {
             if (result > managers[i].numberOfSubordinates) {
@@ -75,7 +75,7 @@ public class WorkersUtils {
         System.out.println("Minimum value of subordinates = " + result);
     }
 
-    public static void getMaxNumberOfSubordinates(Manager[] managers) {
+    public static void getMaxNumberOfSubordinates(BaseManager[] managers) {
         int result = managers[0].numberOfSubordinates;
         for (int i = 1; i < managers.length; i++) {
             if (result < managers[i].numberOfSubordinates) {
@@ -85,8 +85,8 @@ public class WorkersUtils {
         System.out.println("Maximum value of subordinates = " + result);
     }
 
-    public static void getMinSalaryDifference(Manager[] managers) {
-        Manager manager = managers[0];
+    public static void getMinSalaryDifference(BaseManager[] managers) {
+        BaseManager manager = managers[0];
         for (int i = 1; i < managers.length; i++) {
             if ((manager.getSalary() - manager.getBaseSalary()) > (managers[i].getSalary() - managers[i].getBaseSalary())) {
                 manager = managers[i];
@@ -96,8 +96,8 @@ public class WorkersUtils {
                 + (manager.getSalary() - manager.getBaseSalary()));
     }
 
-    public static void getMaxSalaryDifference(Manager[] managers) {
-        Manager manager = managers[0];
+    public static void getMaxSalaryDifference(BaseManager[] managers) {
+        BaseManager manager = managers[0];
         for (int i = 1; i < managers.length; i++) {
             if ((manager.getSalary() - manager.getBaseSalary()) < (managers[i].getSalary() - managers[i].getBaseSalary())) {
                 manager = managers[i];

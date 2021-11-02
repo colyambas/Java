@@ -2,7 +2,7 @@
 
 Задача №1
 
-        Необходимо создать класс Employee со следующими методами:
+        Необходимо создать класс IIEmployee со следующими методами:
         getBaseSalary - получить базовую ставку
         setBaseSalary
         getName - получить имя
@@ -40,15 +40,39 @@
         поиск наименьшей надбавки (разнице между базовой ставки и зарплатой) в массиве менеджеров
 */
 
-public class Worker extends Employee{
+public class Worker implements IEmployee{
 
-    Employee employee;
+    //IEmployee IEmployee;
 
-    Worker(String name, double baseSalary) {
-        super(name, baseSalary);
+    public String name;
+    public double baseSalary;
+
+    public Worker(String name, double baseSalary) {
+        this.name = name;
+        this.baseSalary = baseSalary;
     }
 
-    public final double getBaseSalary() {
+    @Override
+    public double getSalary() {
+        return baseSalary;
+    }
+
+    @Override
+    public void setBaseSalary(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    public  double getBaseSalary() {
         return getBaseSalary();
     }
 }

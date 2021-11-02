@@ -2,7 +2,7 @@
 
 Задача №1
 
-        Необходимо создать класс Employee со следующими методами:
+        Необходимо создать класс IEmployee со следующими методами:
         getBaseSalary - получить базовую ставку
         setBaseSalary
         getName - получить имя
@@ -39,37 +39,9 @@
         поиск наибольшей надбавки (разнице между базовой зарплатой и выплатой) в массиве менеджеров
         поиск наименьшей надбавки (разнице между базовой ставки и зарплатой) в массиве менеджеров
 */
-public final class Manager extends Worker{
-    //Worker worker;
-    Worker worker;
-    public int numberOfSubordinates;
+public interface IManager extends IEmployee{
 
-    private staitc final double SALARY_COEF = 0.03;
+    int getNumberOfSubordinates();
 
-    Manager(String name, double baseSalary, int numberOfSubordinates) {
-        super(name, baseSalary);
-        this.numberOfSubordinates = numberOfSubordinates;
-    }
-
-    Manager(Worker worker, int numberOfSubordinates) {
-        super(worker.getName(), worker.getBaseSalary());
-        this.numberOfSubordinates = numberOfSubordinates;
-    }
-
-    public int getNumberOfSubordinates() {
-        return numberOfSubordinates;
-    }
-
-    public void setNumberOfSubordinates(int numberOfSubordinates) {
-        this.numberOfSubordinates = numberOfSubordinates;
-    }
-
-   // @Override
-    public double getSalary() {
-        if (this.numberOfSubordinates > 0) {
-            return this.getBaseSalary() + this.getBaseSalary() * this.numberOfSubordinates * SALARY_COEF;
-        } else {
-            return super.getBaseSalary();
-        }
-    }
+    void setNumberOfSubordinates(int numberOfSubordinates);
 }

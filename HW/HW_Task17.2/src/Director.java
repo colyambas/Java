@@ -1,26 +1,19 @@
-public final class Director extends Manager{
-    Manager manager;
+public final class Director extends BaseManager implements IManager{
+    BaseManager manager;
 
-    private staitc final double SALARY_COEF = 0.09;
-    Director(String name, int baseSalary, int numberOfSubordinates) {
-        this.name = name;
-        this.baseSalary = baseSalary;
-        this.numberOfSubordinates = numberOfSubordinates;
+    private static final double SALARY_COEF = 0.09;
+
+    public Director(String name, double baseSalary, int numberOfSubordinates, BaseManager manager) {
+        super(name, baseSalary, numberOfSubordinates);
+        this.manager = manager;
     }
-    */
-
 
     Director(String name, double baseSalary, int numberOfSubordinates) {
         super(name, baseSalary, numberOfSubordinates);
     }
 
 
-    Director(Manager manager) {
-        super(manager.getName(), manager.getBaseSalary(), manager.numberOfSubordinates);
-   //     this.name = manager.name;
-   //     this.baseSalary = manager.baseSalary;
-    //    this.numberOfSubordinates = manager.numberOfSubordinates;
-    }
+
 
     @Override
     public double getSalary() {
