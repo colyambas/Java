@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51d480f7-ac6f-498a-b8a4-ef68e2058df3" name="Changes" comment="HW_13 OOP">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task15/src/ILastName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task15/src/IName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task15/src/ISalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task15/src/LastName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task15/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.1/HW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.1/src/BaseEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.1/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.1/src/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.1/src/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.1/src/MonthUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.2/src/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.2/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.2/src/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.2/src/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_Task17.2/src/WorkersUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_Task15/src/Month.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_Task15/src/Month.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_Task15/src/MonthUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_Task15/src/MonthUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +72,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HW_Task13" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
