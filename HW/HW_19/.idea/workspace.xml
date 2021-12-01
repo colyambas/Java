@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587ad15a-7b4c-4517-9398-cae90bb96d10" name="Changes" comment="HW_19 full">
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/src/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithms/src/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithms/src/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithms/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithms/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
